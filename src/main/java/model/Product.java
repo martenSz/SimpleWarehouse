@@ -23,6 +23,13 @@ public class Product implements Serializable {
     }
 
     /**
+     * An empty no-arguments constructor needed to MapStruct work properly
+     */
+    public Product() {
+
+    }
+
+    /**
      * @param name Represents name of product
      * @param category Represents type of category
      * @param stock Represents quantity of stock

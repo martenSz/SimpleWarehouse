@@ -5,7 +5,6 @@ import mapper.ProductMapper;
 import model.Product;
 import model.Warehouse;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Application {
