@@ -16,10 +16,6 @@ public class Application {
         Product product2 = new Product("Java Hibernate VI", "Książka", 22, 49.99);
         Product product3 = new Product("Java Spring Boot III", "Książka", 16, 84.0);
 
-        //zastosowanie MapStruct i Lombok
-        ProductDto productDto1 = ProductMapper.MAPPER.productToProductDto(product1);
-
-
         warehouse.insertProduct(product1);
         warehouse.insertProduct(product2);
         warehouse.insertProduct(product3);
